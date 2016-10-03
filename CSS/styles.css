@@ -14,7 +14,7 @@ body {
 
 .container1	{
 	overflow: auto;
-	border: solid;
+	border: hidden;
 	width: auto;
 	height: auto;
 	background-color: #4169E1;
@@ -34,10 +34,17 @@ body {
 	background-color: white;
 	border-radius: 25px;
 	position: absolute;
+	padding: 25px;
 }
 
 #first h1 {
 	color: #4169E1;
+	text-align: center;
+}
+
+.line-separator {
+	height: 1px;
+	background: #C0C0C0;
 }
 
 #first2 {
@@ -48,7 +55,7 @@ body {
 }
 
 .container2	{
-	border: solid;
+	border: hidden;
 	width: auto;
 	height: auto;
 	background-color: #C0C0C0;
@@ -67,10 +74,12 @@ body {
 	background-color: white;
 	border-radius: 25px;
 	margin-right: 20px;
+	padding: 25px;
 }
 
 #second h1 {
 	color: #4169E1;
+	text-align: center;
 }
 
 #third {
@@ -82,10 +91,12 @@ body {
 	background-color: white;
 	border-radius: 25px;
 	margin-right: 20px;
+	padding: 25px;
 }
 
 #third h1 {
 	color: #4169E1;
+	text-align: center;
 }
 
 #fourth {
@@ -96,10 +107,12 @@ body {
 	float: center;
 	background-color: white;
 	border-radius: 25px;
+	padding: 25px;
 }
 
 #fourth h1 {
 	color: #4169E1;
+	text-align: center;
 }
 
 footer {
